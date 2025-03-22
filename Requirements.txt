@@ -1,0 +1,11 @@
+requests
+bs4
+nltk
+gtts
+deep_translator
+fastapi
+uvicorn
+streamlit
+pydantic
+textblob
+os
