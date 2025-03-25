@@ -30,8 +30,8 @@ def analyze_news(request: CompanyRequest):
         "Company": company_name,
         "Articles": [
             {
-                "Title": article["title"],
-                "Summary": article["summary"],
+                "Title": article["Title"],
+                "Summary": article["Summary"],
                 "Sentiment": article["Sentiment"],
                 "Topics": article["Topics"]
             }
